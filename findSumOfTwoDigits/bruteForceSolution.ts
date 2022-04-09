@@ -1,4 +1,4 @@
-const findSumOfTwoDigits = (numbersList: number[], foundSum: number): [number, number] | null => {
+export const findSumOfTwoDigits = (numbersList: number[], foundSum: number): [number, number] | null => {
     if (numbersList.length === 0 || numbersList.length === 1) return null;
 
     if (numbersList.length === 2) {
