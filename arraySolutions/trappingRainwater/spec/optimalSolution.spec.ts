@@ -2,7 +2,7 @@ import { optimalSolution } from "../optimalSolution";
 
 describe('Brute force solution', () => {
     test ('Should calculate amount trapped total water', () => {
-        const expectedResult = optimalSolution([0, 1, 0, 2, 1, 0, 3, 1, 0, 1, 2]);
+        const expectedResult = optimalSolution([9, 0, 7, 3, 0, 1, 0]);
 
         expect(expectedResult).toEqual(8);
     });
